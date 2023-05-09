@@ -25,7 +25,7 @@ class SubCategoryAdapter: RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHold
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
         ctx = parent.context
-        return RecipeViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_rv_sub_category,parent,false))
+        return RecipeViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.sub_category,parent,false))
     }
 
     override fun getItemCount(): Int {

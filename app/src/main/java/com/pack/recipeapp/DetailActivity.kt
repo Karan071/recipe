@@ -21,7 +21,7 @@ class DetailActivity : BaseActivity() {
     var youtubeLink = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.detail)
 
         var id = intent.getStringExtra("id")
 

@@ -24,7 +24,7 @@ class SplashActivity : BaseActivity(), EasyPermissions.RationaleCallbacks,
     private var READ_STORAGE_PERM = 123
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.splash)
 
         readStorageTask()
 
